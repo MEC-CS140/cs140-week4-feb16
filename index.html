@@ -3,25 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Web Development!</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Birthday Party Information</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Hello, CS 140 Creators!🎨</h1>
+        <h1 class="colorheader">🎉You have been invited to my Birthday Bash🎉</h1>
+        <img src = "party.gif" alt="animated party image that says party time" />
     </header>
     <main>
         <section>
-            <p>This is your canvas, and with HTML, CSS, and JavaScript, you're going to create something amazing. Ready, set, code! ✨</p>
+            <p>Come to my birthday party, we will have music and food!</p>
+            
+            <ul class="lists">
+                <li>
+                    <span>Where:</span> 
+                        123 Street Lane, Brooklyn
+
+                </li>
+
+                <li>
+                    <span>When:</span> 6PM - 10PM
+
+                </li>
+
+                <li>
+                    <span>Gifts:</span>  
+                    <a id="biglink" href="https://amazon.com">
+                        Link to Amazon Wishlist
+                    </a>
+                </li>
+            </ul>
+
+
+            <h2 class="colorheader">Directions</h2>
+            <ol class="lists">
+                <li>Go to entrance on the corner of main street and street lane</li>
+                <li>On the keypad, press number #123</li>
+                <li>Go to elevator on the right side of door</li>
+                <li>Go to floor 8</li>
+                <li>Go to aparment #810</li>
+
+            </ol>
+
         </section>
-        <section>
-            <button id="funButton">Click Me for Fun!</button>
-            <p id="funText"></p>
-        </section>
+
     </main>
     <footer>
         <p>Happy Coding! 🚀</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>

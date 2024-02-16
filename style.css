@@ -1,16 +1,35 @@
 /* styles.css - Let's make our web development journey fun and stylish! */
 
+.colorheader{
+  color: deeppink;
+}
+
+#biglink{
+  font-size: 20pt;
+}
+
+span{
+  font-weight: bold;
+}
+
+.lists{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: rgb(248, 200, 5);
   color: #333;
   text-align: center;
 }
 
 header {
-  background-color: #ffcc00;
   color: #fff;
   padding: 20px 0;
 }
@@ -34,7 +53,6 @@ button:hover {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #333;
